@@ -10,84 +10,135 @@
   min-height: 100vh;
 
 }
-.App{
+
+.App {
   width: 230px;
   height: 360px;
   border-radius: 10px;
   padding: 30px;
   position: relative;
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   align-items: center;
-  background-color:green;
+  background: linear-gradient(to top left, #624aa1, #76fdab);
 
 }
-form{
-  width: 100% ;
+
+form {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
-input{
+.btn {
+  color: grey;
+  cursor: pointer;
+}
+
+.Loading {
+  display: none;
+}
+
+input {
   border-radius: 50px;
   outline: none;
   border: none;
   padding: 10px;
   width: 70%;
 }
-button{
+
+button {
   border-radius: 50px;
   outline: none;
   border: none;
   padding: 10px;
 }
-.App .Temp{
+
+.Temp {
   font-size: 45px;
   font-weight: 500;
   color: white;
   margin-top: 10px;
   margin-bottom: 0;
+  text-align: center;
 }
-.name{
+
+.name {
   color: white;
   font-weight: 400;
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
+  text-align: center;
 }
-.column{
-  width: 100% ;
+
+.column {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  
 }
-.humidity,.windSpeed{
-  display:flex;
+
+.columnDemo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.humidityDemo {
+  margin-right: 88px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.windSpeedDemo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.humidity,
+.windSpeed {
+  display: flex;
   align-items: center;
   position: relative;
 }
-.humidText,.windSpeedText,.humidImage,.windSpeedImage{
+
+.humidText,
+.windSpeedText,
+.humidImage,
+.windSpeedImage {
   color: white;
- 
+
 }
-#humidNum,#windNum{
+
+#humidNum,
+#windNum {
   margin-bottom: 0px;
- 
+
 }
-.humidName,.windName{
+
+.humidName,
+.windName {
   font-size: 9px;
   margin-top: 0px;
- 
+
 }
-.windSpeedImage,.humidImage{
+
+.windSpeedImage,
+.humidImage {
   position: relative;
   top: -2px;
   left: -5px;
- 
+
 }
-.weatherSatusImage{
+
+.weatherSatusImage {
   margin-top: 40px;
   margin-bottom: 0px;
+  text-align: center;
 }
